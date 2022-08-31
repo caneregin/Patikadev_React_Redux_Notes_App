@@ -29,14 +29,14 @@ function FormNotes() {
     <div>
       <Form>
         <Input icon='text' placeholder='Enter your title here...' value={title} onChange={(e) => setTitle(e.target.value)}
-        style={{marginRight:"114vh"}} />
-        <TextArea style={{minHeight:"200px"}} placeholder='Enter your note here...' value={textarea} onChange={(e) => setTextarea(e.target.value)} />
-        <Button style={{ height: "50px", width: "50px", borderRadius: "50px", padding:"20px",position:"absolute",marginLeft:"-146vh",marginTop:"24vh" }} id="pink" color='pink' onClick={handleButtonClick} >{color === "pink" ? "🗸" : ""}</Button>
-        <Button style={{ height: "50px", width: "50px", borderRadius: "50px", padding:"20px",position:"absolute",marginLeft:"-137vh",marginTop:"24vh" }} id="purple" color='purple' onClick={handleButtonClick} >{color === "purple" ? "🗸" : ""}</Button>
-        <Button style={{ height: "50px", width: "50px", borderRadius: "50px", padding:"20px",position:"absolute",marginLeft:"-128vh",marginTop:"24vh" }} id="yellow" color='yellow' onClick={handleButtonClick} >{color === "yellow" ? "🗸" : ""}</Button>
-        <Button style={{ height: "50px", width: "50px", borderRadius: "50px", padding:"20px",position:"absolute",marginLeft:"-119vh",marginTop:"24vh" }} id="blue" color='blue' onClick={handleButtonClick} >{color === "blue" ? "🗸" : ""}</Button>
-        <Button style={{ height: "50px", width: "50px", borderRadius: "50px", padding:"20px",position:"absolute",marginLeft:"-110vh",marginTop:"24vh" }} id="green" color='green' onClick={handleButtonClick}>{color === "green" ? "🗸" : ""}</Button>
-        <Button id="green" color='green' onClick={handleButtonSubmit} style={{marginLeft:"39vh",position:"absolute",position:"absolute",marginLeft:"-12vh",marginTop:"26vh"}}>ADD</Button>
+        style={{marginRight:"51rem"}} />
+        <TextArea style={{minHeight:"20rem"}} placeholder='Enter your note here...' value={textarea} onChange={(e) => setTextarea(e.target.value)} />
+        <Button style={{ height: "5rem", width: "5rem", borderRadius: "5rem", padding:"2rem",position:"absolute",marginLeft:"-65rem",marginTop:"14.9rem" }} id="pink" color='pink' onClick={handleButtonClick} >{color === "pink" ? "🗸" : ""}</Button>
+        <Button style={{ height: "5rem", width: "5rem", borderRadius: "5rem", padding:"2rem",position:"absolute",marginLeft:"-60rem",marginTop:"14.9rem" }} id="purple" color='purple' onClick={handleButtonClick} >{color === "purple" ? "🗸" : ""}</Button>
+        <Button style={{ height: "5rem", width: "5rem", borderRadius: "5rem", padding:"2rem",position:"absolute",marginLeft:"-55rem",marginTop:"14.9rem" }} id="yellow" color='yellow' onClick={handleButtonClick} >{color === "yellow" ? "🗸" : ""}</Button>
+        <Button style={{ height: "5rem", width: "5rem", borderRadius: "5rem", padding:"2rem",position:"absolute",marginLeft:"-50rem",marginTop:"14.9rem" }} id="blue" color='blue' onClick={handleButtonClick} >{color === "blue" ? "🗸" : ""}</Button>
+        <Button style={{ height: "5rem", width: "5rem", borderRadius: "5rem", padding:"2rem",position:"absolute",marginLeft:"-45rem",marginTop:"14.9rem" }} id="green" color='green' onClick={handleButtonClick}>{color === "green" ? "🗸" : ""}</Button>
+        <Button id="green" color='green' onClick={handleButtonSubmit} style={{position:"absolute",marginLeft:"-6rem",marginTop:"17rem"}}>ADD</Button>
       </Form>
     </div>
   )
